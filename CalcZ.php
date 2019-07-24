@@ -15,9 +15,8 @@
 <?php
 if(isset($_POST["zahl1"]))
 {
-	$zahl1=(float)$_POST["zahl1"];
-	$zahl2=(float)$_POST["zahl2"];
-	$rechenart=$_POST["rechenart"];
+	$berechnung = $_POST['berechnung'];
+	$split_berechnung = preg_split('/([+\-\*\/])/', $berechnung, null, PREG_SPLIT_DELIM_CAPTURE);
 
 	echo "Zahl1: $zahl1";
 	echo "<br>\n";
