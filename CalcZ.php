@@ -2,7 +2,8 @@
 <html>
 <head>
 	<title>Schulung</title>
-	<meta charset="UTF-8">
+    <meta charset="UTF-8">
+    <style></style>
 </head>
 <body>
 <form action="<?php  echo $_SERVER["PHP_SELF"];   ?>" method="post">
