@@ -7,7 +7,8 @@
 <body>
 <form action="<?php  echo $_SERVER["PHP_SELF"];   ?>" method="post">
 
-	<input type="submit" value="Absenden"><br>
+<input type="text" name="berechnung" class="berechnung"><br>
+<input type="submit" value="Absenden"><br>
 
 </form>
 
