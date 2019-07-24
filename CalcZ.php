@@ -11,6 +11,9 @@
         .input[type='submit'] {
             display: hidden;
         }
+        .ergebnis {
+            font-size: 1.5rem;
+        }
     </style>
 </head>
 <body>
