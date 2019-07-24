@@ -22,6 +22,7 @@
 	</script>
 </head>
 <body>
+<div class="main">
 <form action="<?php  echo $_SERVER["PHP_SELF"];   ?>" method="post">
 
 	Zahl1<br>
@@ -41,6 +42,7 @@
 	<input type="submit" value="Absenden"><br>
 
 </form>
+</div>
 
 <?php
 if(isset($_POST["zahl1"]))
@@ -82,6 +84,7 @@ if(isset($_POST["zahl1"]))
 
 }
 ?>
+<div class="ergebnis"><?php echo $ergebnis ?></div>
 
 </body>
 </html>
