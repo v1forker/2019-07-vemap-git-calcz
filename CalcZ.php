@@ -79,9 +79,6 @@ if(isset($_POST["zahl1"]))
 				break;
 		default: $ergebnis="keine gültige Rechenart";
 	}
-
-	echo "ERGEBNIS:" . $ergebnis;
-
 }
 ?>
 <div class="ergebnis"><?php echo $ergebnis ?></div>
