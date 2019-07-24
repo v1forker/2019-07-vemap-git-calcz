@@ -7,20 +7,6 @@
 <body>
 <form action="<?php  echo $_SERVER["PHP_SELF"];   ?>" method="post">
 
-	Zahl1<br>
-	<input type="text" name="zahl1"><br>
-
-	Berechnung<br>
-	<select name="rechenart">
-		<option value="addieren">+ addieren</option>
-		<option value="subtrahieren">- subtrahieren</option>
-		<option value="multiplizieren">* multiplizieren</option>
-		<option value="dividieren">/ dividieren</option>
-	</select>
-	<br>
-	Zahl2<br>
-	<input type="text" name="zahl2"><br>
-
 	<input type="submit" value="Absenden"><br>
 
 </form>
