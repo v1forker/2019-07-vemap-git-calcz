@@ -3,7 +3,12 @@
 <head>
 	<title>Schulung</title>
     <meta charset="UTF-8">
-    <style></style>
+    <style>
+        .main {
+            text-align: center;
+            margin-top: 45vh;
+        }
+    </style>
 </head>
 <body>
 <form action="<?php  echo $_SERVER["PHP_SELF"];   ?>" method="post">
