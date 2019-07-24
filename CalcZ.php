@@ -15,6 +15,7 @@
             font-size: 1.5rem;
         }
     </style>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 </head>
 <body>
 <form action="<?php  echo $_SERVER["PHP_SELF"];   ?>" method="post">
