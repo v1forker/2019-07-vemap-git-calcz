@@ -15,7 +15,11 @@
             font-size: 1.5rem;
         }
     </style>
-	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js">
+	$(document).ready(function() {
+		$('#berechnung').focus().select(); 
+	});
+	</script>
 </head>
 <body>
 <form action="<?php  echo $_SERVER["PHP_SELF"];   ?>" method="post">
