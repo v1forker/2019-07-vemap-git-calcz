@@ -33,13 +33,13 @@ if(isset($_POST["zahl1"]))
 
 		switch($rechenart)
 		{
-			case "addieren": $ergebnis=$zahl1+$zahl2;
+			case "+": $ergebnis=$zahl1+$zahl2;
 					break;
-			case "subtrahieren": $ergebnis=$zahl1-$zahl2;
+			case "-": $ergebnis=$zahl1-$zahl2;
 					break;
-			case "multiplizieren": $ergebnis=$zahl1*$zahl2;
+			case "*": $ergebnis=$zahl1*$zahl2;
 					break;
-			case "dividieren": 
+			case "/": 
 					if($zahl2==0)
 					{
 						$ergebnis="Keine Divisionen durch null!";
